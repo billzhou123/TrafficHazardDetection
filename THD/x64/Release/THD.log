@@ -1,0 +1,28 @@
+﻿Build started 1/7/2015 11:36:25 PM.
+     1>Project "C:\C Development\THD\THD\THD.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing thd.h...
+         Uic'ing thd.ui...
+         Rcc'ing thd.qrc...
+     1>RCC : warning : No resources in 'C:\C Development\THD\THD\thd.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\5.3\msvc2013_64\include\QtCore /IC:\Qt\5.3\msvc2013_64\include\QtGui /IC:\Qt\5.3\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_thd.cpp
+         qrc_thd.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\5.3\msvc2013_64\include\QtCore /IC:\Qt\5.3\msvc2013_64\include\QtGui /IC:\Qt\5.3\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp thd.cpp
+         main.cpp
+         thd.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C Development\THD\x64\Release\\THD.exe" /NOLOGO /LIBPATH:C:\Qt\5.3\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\C Development\THD\x64\Release\THD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C Development\THD\x64\Release\THD.lib" /MACHINE:X64 x64\Release\qrc_thd.obj
+         x64\Release\main.obj
+         x64\Release\thd.obj
+     1>thd.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl THD::metaObject(void)const " (?metaObject@THD@@UEBAPEBUQMetaObject@@XZ)
+     1>thd.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl THD::qt_metacast(char const *)" (?qt_metacast@THD@@UEAAPEAXPEBD@Z)
+     1>thd.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl THD::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@THD@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>C:\C Development\THD\x64\Release\\THD.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\C Development\THD\THD\THD.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.86

@@ -1,0 +1,50 @@
+﻿Build started 7/23/2015 11:19:23 AM.
+     1>Project "C:\C Development\THD\THD\THD.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Uic'ing thd.ui...
+     1>C:\C Development\THD\THD\thd.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+     1>C:\C Development\THD\THD\thd.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget2'.
+     1>C:\C Development\THD\THD\thd.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget3'.
+     1>C:\C Development\THD\THD\thd.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget4'.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\C Development\include" /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\5.3\msvc2013_64\include\QtCore /IC:\Qt\5.3\msvc2013_64\include\QtGui /IC:\Qt\5.3\msvc2013_64\include\QtWidgets /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D WIN64 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_thd.cpp main.cpp thd.cpp
+         moc_thd.cpp
+         main.cpp
+         thd.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C Development\THD\x64\Debug\THD.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\C Development\vc12\lib" /LIBPATH:C:\Qt\5.3\msvc2013_64\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\C Development\THD\x64\Debug\THD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C Development\THD\x64\Debug\THD.lib" /MACHINE:X64 x64\Debug\CarAnalysisThread.obj
+         x64\Debug\CarDetectionThread.obj
+         x64\Debug\ConsoleThread.obj
+         x64\Debug\moc_CarAnalysisThread.obj
+         x64\Debug\moc_CarDetectionThread.obj
+         x64\Debug\moc_ConsoleThread.obj
+         x64\Debug\moc_LaneDetectionThread.obj
+         x64\Debug\moc_LiveFeedThread.obj
+         x64\Debug\moc_MainProcessingThread.obj
+         x64\Debug\moc_PedestrianThread.obj
+         x64\Debug\moc_SchoolSignThread.obj
+         x64\Debug\moc_SpeedCallibrationThread.obj
+         x64\Debug\moc_StopSignThread.obj
+         x64\Debug\moc_TestThread.obj
+         x64\Debug\moc_thd.obj
+         x64\Debug\qrc_thd.obj
+         x64\Debug\GlobalSettings.obj
+         x64\Debug\LaneDetectionThread.obj
+         x64\Debug\LiveFeedThread.obj
+         x64\Debug\main.obj
+         x64\Debug\MainProcessingThread.obj
+         x64\Debug\MatToQImage.obj
+         x64\Debug\PedestrianThread.obj
+         x64\Debug\SchoolSignThread.obj
+         x64\Debug\SpeedCallibrationThread.obj
+         x64\Debug\StopSignThread.obj
+         x64\Debug\TestThread.obj
+         x64\Debug\thd.obj
+         x64\Debug\THDUtil.obj
+         THD.vcxproj -> C:\C Development\THD\x64\Debug\THD.exe
+     1>Done Building Project "C:\C Development\THD\THD\THD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.29

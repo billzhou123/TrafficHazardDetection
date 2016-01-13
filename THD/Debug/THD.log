@@ -1,0 +1,28 @@
+﻿Build started 1/7/2015 11:31:18 PM.
+     1>Project "C:\C Development\THD\THD\THD.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing thd.h...
+         Uic'ing thd.ui...
+         Rcc'ing thd.qrc...
+     1>RCC : warning : No resources in 'C:\C Development\THD\THD\thd.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\5.3\msvc2013_64\include\QtCore /IC:\Qt\5.3\msvc2013_64\include\QtGui /IC:\Qt\5.3\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_thd.cpp main.cpp thd.cpp
+         moc_thd.cpp
+         main.cpp
+         thd.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\5.3\msvc2013_64\include\QtCore /IC:\Qt\5.3\msvc2013_64\include\QtGui /IC:\Qt\5.3\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_thd.cpp
+         qrc_thd.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C Development\THD\Win32\Debug\\THD.exe" /NOLOGO /LIBPATH:C:\Qt\5.3\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\C Development\THD\Win32\Debug\THD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C Development\THD\Win32\Debug\THD.lib" /MACHINE:X86 /SAFESEH Debug\moc_thd.obj
+         Debug\qrc_thd.obj
+         Debug\main.obj
+         Debug\thd.obj
+     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(607,5): error MSB6006: "link.exe" exited with code 1112.
+     1>Done Building Project "C:\C Development\THD\THD\THD.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.36
